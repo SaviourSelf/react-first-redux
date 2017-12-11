@@ -1,4 +1,7 @@
 node_modules
+src/node_modules
 *.log
 buildClient
 buildServer
+.DS_Store
+src/.DS_Store

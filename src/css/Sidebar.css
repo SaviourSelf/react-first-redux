@@ -27,6 +27,7 @@ h2 {
   transition: 0.3s ease all;
 }
 
+
 .sidebar .active {
   background-image: linear-gradient(270deg, #fed29d, #A58B66, rgb(255, 44, 145), rgb(200, 43, 48));
   background-size: 720%;
@@ -42,4 +43,10 @@ h2 {
 
 .sidebar .active:hover {
   background: rgb(255, 30, 98);
+}
+
+@media only screen and (max-device-width: 480px) {
+  .sidebar a, .sidebar span {
+    color: black;
+  }
 }
